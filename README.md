@@ -40,9 +40,14 @@
 
 
 
-## 5th test : Prepare a baseline
+## 5th test : Prepare baseline images for all pages (to book flight tickets)
 
 ![image](https://github.com/annemshivaji/Selenium-Vision/assets/84372271/cac4bd05-29b8-4aa4-896c-c6168cf3a690)
+
+### 4 pages created
+
+![image](https://github.com/annemshivaji/Selenium-Vision/assets/84372271/a24a9f11-851a-4431-a64a-633cac4d968d)
+
 
 
 
