@@ -21,14 +21,13 @@
 
 ## 4th test : to compare different images
 
-![image](https://github.com/annemshivaji/Selenium-Vision/assets/84372271/be9b2b10-0679-42ee-a8bd-e276d6b74a5c)
-
-
 ### test failed as when there is a difference in the image
 
 ![image](https://github.com/annemshivaji/Selenium-Vision/assets/84372271/0e49ec49-d4e2-4b63-9ee3-2fd736144f8d)
 
 ### Image with highlighted differences ( in red )
+
+![image](https://github.com/annemshivaji/Selenium-Vision/assets/84372271/be9b2b10-0679-42ee-a8bd-e276d6b74a5c)
 
 
 
