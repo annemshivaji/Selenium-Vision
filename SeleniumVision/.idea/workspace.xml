@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da1ab706-3b8e-42e1-a57d-7d754f65d81a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/drivers/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/api-compile.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/api-snapshot.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/eval.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/ide-compile.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/ide-snapshot.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.java-version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/jxgrabkey/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/jxgrabkey/CHANGELOG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/jxgrabkey/COPYRIGHT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/jxgrabkey/HotkeyConflictException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/jxgrabkey/HotkeyListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/jxgrabkey/HotkeyListenerDebugEnabled.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/jxgrabkey/JXGrabKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/jxgrabkey/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/jxgrabkey/X11KeysymDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/jxgrabkey/X11MaskDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/basics/Debug.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/basics/GenericHotkeyManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/basics/HotkeyEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/basics/HotkeyListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/basics/HotkeyManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/basics/LinuxHotkeyManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/basics/OS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/basics/PreferencesUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/basics/Settings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/AnimationFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/Animator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/ClickableWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/ComponentMover.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/GlobalMouseMotionListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/GlobalMouseMotionTracker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/Guide.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/HTMLTextPane.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/IAnimator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/Run.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/ShadowRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/SxAnchor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/SxArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/SxArrow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/SxBeam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/SxBracket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/SxButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/SxCallout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/SxCircle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/SxClickable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/SxFlag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/SxHotspot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/SxImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/SxMagnet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/SxRectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/SxSpotlight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/SxText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/TimeoutTransition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/Tracker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/Transition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/TransitionDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/guide/Visual.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/hotkey/HotkeyCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/hotkey/HotkeyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/hotkey/HotkeyEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/hotkey/Keys.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/natives/CommandExecutorException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/natives/CommandExecutorHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/natives/CommandExecutorResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/natives/GenericOsUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/natives/LinuxUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/natives/MacUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/natives/OSUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/natives/SXUser32.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/natives/SysUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/natives/WinUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/natives/mac/jna/CoreGraphics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/natives/mac/jna/NSRunningApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/Button.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/Element.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/Env.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/FindFailed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/FindFailedResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/Finder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/Image.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/ImageCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/ImagePath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/Key.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/KeyModifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/Match.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/Matches.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/Mouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/OCR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/ObserveEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/ObserverCallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/Offset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/Options.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/Pattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/Region.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/SX.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/Screen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/ScreenImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/SikuliEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/SikuliException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/SikuliXception.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/Sikulix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/TextRecognizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/compare/DistanceComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/compare/HorizontalComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/script/compare/VerticalComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/Commons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/FileManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/FindFailedDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/ImageGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/Observing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/RunTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/animators/Animator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/animators/AnimatorLinear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/animators/AnimatorLinearInterpolation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/animators/AnimatorOutQuarticEase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/animators/AnimatorPulse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/animators/AnimatorQuarticEase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/animators/AnimatorStopExtention.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/animators/AnimatorTimeBased.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/animators/AnimatorTimeValueFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/devices/Device.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/devices/Devices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/devices/HelpDevice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/devices/IRobot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/devices/IScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/devices/KeyboardLayout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/devices/MouseDevice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/devices/RobotDesktop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/devices/ScreenDevice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/devices/ScreenUnion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/gui/SXDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/recorder/RecordedEventsFlow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/recorder/Recorder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/recorder/actions/ClickAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/recorder/actions/DoubleClickAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/recorder/actions/DragDropAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/recorder/actions/IRecordedAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/recorder/actions/MouseDownAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/recorder/actions/MouseMoveAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/recorder/actions/MouseUpAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/recorder/actions/MouseWheelAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/recorder/actions/PatternAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/recorder/actions/RightClickAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/recorder/actions/TypeKeyAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/recorder/actions/TypeTextAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/recorder/actions/WaitAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/recorder/generators/ICodeGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/recorder/generators/JythonCodeGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/runner/AbstractRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/runner/AppleScriptRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/runner/IRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/runner/PowershellRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/support/runner/ProcessRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/util/CommandArgs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/util/CommandArgsEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/util/Crawler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/util/EventObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/util/EventSubject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/util/Highlight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/util/OverlayCapturePrompt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/util/OverlayTransparentWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/util/Run.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/java/org/sikuli/util/SikulixFileChooser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/Settings/THIRD-PARTY.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/Settings/sikulixversion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/Settings/sxmenu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/Settings/sxmenu_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/Settings/sxtest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/darwin/librococoa.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/htdocs/ControlBox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/htdocs/ControlBox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/htdocs/ControlBox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/htdocs/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/Images.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/Images.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/_color/buttonactivate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/_color/color.sikuli/buttonactivate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/_color/color.sikuli/color.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/_color/color.sikuli/source_activate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/_color/color.sikuli/source_activated.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/_color/source_activate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/_color/source_activated.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/any1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/any2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/any3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/any4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/any5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/any6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/house1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/house1_mac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/house2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/houseTm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/houseTx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/house_shot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/house_shot_changed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/house_shot_mac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/treeT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/treeTx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/_backup/txtImg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/any1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/any2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/any3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/any4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/any5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/any6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/house1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/house1_mac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/house2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/houseTm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/houseTx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/house_shot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/house_shot_changed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/house_shot_mac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/images.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/treeTx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/images/txtImg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/sikulixlibs/libJXGrabKey.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/tessdataSX/configs/api_config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/tessdataSX/configs/bazaar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/tessdataSX/configs/digits" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/tessdataSX/configs/hocr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/tessdataSX/configs/nodict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/tessdataSX/configs/pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/tessdataSX/configs/quiet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/tessdataSX/configs/tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/tessdataSX/configs/txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/tessdataSX/configs/unlv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/src/main/resources/tessdataSX/eng.traineddata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/makeide-lux.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/makeide-mac.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/makeide-win.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/makeide.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/basics/SikulixForJython.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/AutoUpdater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/ButtonCapture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/ButtonGenCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/ButtonOnToolbar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/CloseableModernTabbedPaneUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/CloseableTabbedPane.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/CloseableTabbedPaneListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/EditorConsolePane.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/EditorCurrentLineHighlighter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/EditorImageButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/EditorLineNumberView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/EditorPane.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/EditorPaneUndoRedo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/EditorPatternButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/EditorPatternLabel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/EditorRegionButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/EditorRegionLabel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/EditorUndoManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/EditorViewFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/GifDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/LoadingSpinner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/PatternPaneScreenshot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/PatternPaneTargetOffset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/PatternSimilaritySlider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/PatternWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/PreferencesWin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/PreferencesWin.jfd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/PreferencesWindowMore.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/PreferencesWindowMore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/PreviewWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/SikuliEditorKit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/SikuliIDEPopUpMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/SikuliIDEStatusBar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/Sikulix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/ide/SikulixIDE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/script/SikulixForJython.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/gui/SXDialogIDE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/gui/SXDialogPaneImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/gui/SXDialogPaneImageMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/gui/SXDialogPaneImageOptimize.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/gui/SXDialogPaneImagePattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/gui/notused/PatternPaneNaming.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/ExtensionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/ExtensionManagerFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/IButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/IDEDesktopSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/IDESplash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/IDESupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/IIDESupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/IIndentationLogic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/IRunnerSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/JRubyIDESupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/JRubySupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/JythonIDESupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/JythonSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/PythonIndentation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/PythonState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/Resizable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/SikuliIDEI18N.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/autocomplete/AbstractCompleter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/autocomplete/IAutoCompleter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/autocomplete/JythonCompleter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/Def.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/Jygments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/NestedDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/ResolutionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/Run.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/contrib/Css2Lexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/contrib/DebugFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/contrib/Default2Style.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/contrib/HtmlFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/format/Formatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/grammar/DelegatedLexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/grammar/Grammar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/grammar/Lexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/grammar/PatternRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/grammar/RegexLexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/grammar/RelativeState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/grammar/Rule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/grammar/SaveRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/grammar/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/grammar/Token.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/grammar/TokenRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/grammar/TokenType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/grammar/UsingRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/grammar/def/ChangeStateTokenRuleDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/grammar/def/IncludeDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/grammar/def/SaveDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/grammar/def/StateDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/grammar/def/TokenRuleDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/grammar/def/UsingRuleDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/scan/EndOfText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/scan/Scanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/style/ColorStyleElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/style/EffectStyleElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/style/FontStyleElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/style/Style.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/style/StyleElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/ide/syntaxhighlight/style/def/StyleElementDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/runner/AbortableScriptRunnerWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/runner/AbstractLocalFileScriptRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/runner/InvalidRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/runner/JRubyRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/runner/JarExeRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/runner/JarRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/runner/JythonRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/runner/NetworkRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/runner/PythonRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/runner/RobotRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/runner/SKLRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/runner/ServerRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/runner/SikulixRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/runner/SikulixServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/runner/SilkulixGitTestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/runner/TextRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/java/org/sikuli/support/runner/ZipRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/HTMLTestRunner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/XMLTestRunner1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/XMLTestRunner2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/guide/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/guide/guide.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/sikuli/Env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/sikuli/Finder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/sikuli/Region.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/sikuli/Screen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/sikuli/Sikuli.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/sikuli/SikuliImporter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/sikuli/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/sikulix.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/site-packages/sites_example.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlrd/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlrd/biffh.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlrd/book.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlrd/compdoc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlrd/formatting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlrd/formula.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlrd/info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlrd/sheet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlrd/timemachine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlrd/xldate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlrd/xlsx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlutils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlutils/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlutils/copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlutils/display.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlutils/filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlutils/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlutils/margins.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlutils/save.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlutils/styles.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlutils/version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlutils/view.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlwt/BIFFRecords.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlwt/Bitmap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlwt/Cell.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlwt/Column.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlwt/CompoundDoc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlwt/ExcelFormula.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlwt/ExcelFormulaLexer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlwt/ExcelFormulaParser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlwt/ExcelMagic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlwt/Formatting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlwt/Row.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlwt/Style.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlwt/UnicodeUtils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlwt/Utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlwt/Workbook.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlwt/Worksheet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlwt/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlwt/antlr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlwt/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/xlwt/excel-formula.g" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Lib/zxJDBC.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/META-INF/services/org.sikuli.support.ide.IIDESupport" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Settings/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Settings/THIRD-PARTY.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/Settings/sxideversion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE/IDE-ar.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE/IDE-bg.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE/IDE-ca.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE/IDE-da.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE/IDE-de.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE/IDE-es.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE/IDE-fr.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE/IDE-he.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE/IDE-it.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE/IDE-ja.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE/IDE-ko.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE/IDE-nl.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE/IDE-pl.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE/IDE-pt_BR.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE/IDE-ru.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE/IDE-sv.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE/IDE-tr.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE/IDE-uk.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE/IDE-zh_CN.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE/IDE-zh_TW.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE/IDE.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_ar.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_bg.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_ca.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_da.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_de.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_en_US.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_es.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_fr.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_he.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_it.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_ja.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_ko.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_nl.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_pl.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_pt_BR.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_ru.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_sv.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_ta_IN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_tr.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_uk.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/i18n/IDE_zh_TW.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/camera-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/camera-icon.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/capture-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/capture-very-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/capture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/close-hover.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/close-normal.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/close-pressed.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/error.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/error_icon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/failure.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/hierarchy.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/insert-image-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/insert-image-icon.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/insert-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/mac-toolbar-icon-template.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/ok.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/py-src-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/record.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/region-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/region-icon.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/run.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/run_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/run_big.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/run_big_green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/run_big_yl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/runviz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/sikulix-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/sikulix-red-x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/sikulix-red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/sikulix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/subregion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/sxcapture-x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/sxcapture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/tab/tab-aqua-highlight-sep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/tab/tab-aqua-highlight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/tab/tab-aqua-sep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/tab/tab-aqua.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/tab/tab-normal-highlight-sep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/tab/tab-normal-highlight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/tab/tab-normal-sep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/icons/tab/tab-normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/org/sikuli/support/gui/sxideabout.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/org/sikuli/support/gui/sxideclosetab.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/org/sikuli/support/gui/sxideerror.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/org/sikuli/support/gui/sxidepaneimage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/org/sikuli/support/gui/sxidepaneimagemenu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/org/sikuli/support/gui/sxidepaneimageoptimize.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/org/sikuli/support/gui/sxidepaneimagepattern.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/org/sikuli/support/gui/sxidestartup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/scripts/sikuli2html.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDE/src/main/resources/scripts/testRun/testRun.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Support/README_template_head.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Support/README_template_tail.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Support/archiv/README_21-11-12.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Support/commands/mac/runide11m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Support/experiments/03_windows/minimizedWindow.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Support/latestIDE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Support/pom_template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Support/settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Support/sikulix-red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Support/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/downloads.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/nightly_template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2eOabfLtR73sn5a2OcgJBPQMpcQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.FirstTest.test.executor": "Run",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "S:/Crack/projects/Projects/Selenium-Vision/SeleniumVision/src/drivers",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="S:\Crack\projects\Projects\Selenium-Vision\SeleniumVision\src\drivers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.FirstTest.test">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="SeleniumVision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumVision" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.FirstTest.test" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-18.0.2-corretto-18.0.2-4caba194b151-5720f15e" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da1ab706-3b8e-42e1-a57d-7d754f65d81a" name="Changes" comment="" />
+      <created>1711778151814</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711778151814</updated>
+    </task>
+    <servers />
+  </component>
+</project>
