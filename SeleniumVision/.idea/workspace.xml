@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="da1ab706-3b8e-42e1-a57d-7d754f65d81a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/logoImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/screenshots/myImage1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScreenCaptureUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScreenCaptureUtility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
     </list>
@@ -38,11 +40,14 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.FirstTest.compareImages.executor": "Run",
+    "TestNG.FirstTest.compareImagesToFail.executor": "Run",
+    "TestNG.FirstTest.prepareBaseline.executor": "Run",
     "TestNG.FirstTest.test.executor": "Run",
     "TestNG.FirstTest.test2.executor": "Run",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "S:/Crack/projects/Projects/Selenium-Vision/SeleniumVision/src/drivers",
+    "last_opened_file_path": "S:/Crack/projects/Projects/Selenium-Vision/SeleniumVision/src/images/baseline",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -51,19 +56,43 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="S:\Crack\projects\Projects\Selenium-Vision\SeleniumVision\src\images\baseline" />
       <recent name="S:\Crack\projects\Projects\Selenium-Vision\SeleniumVision\src\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FirstTest.test2">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+  <component name="RunManager" selected="TestNG.FirstTest.prepareBaseline">
+    <configuration name="FirstTest.compareImages" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumVision" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="compareImages" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.compareImagesToFail" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumVision" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="compareImagesToFail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.prepareBaseline" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumVision" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="prepareBaseline" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,9 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FirstTest.test2" />
+        <item itemvalue="TestNG.FirstTest.prepareBaseline" />
+        <item itemvalue="TestNG.FirstTest.compareImages" />
+        <item itemvalue="TestNG.FirstTest.compareImagesToFail" />
         <item itemvalue="TestNG.FirstTest.test" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.FirstTest.test2" />
       </list>
     </recent_temporary>
   </component>
