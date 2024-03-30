@@ -40,5 +40,11 @@
 
 
 
+## 5th test : Prepare a baseline
+
+![image](https://github.com/annemshivaji/Selenium-Vision/assets/84372271/cac4bd05-29b8-4aa4-896c-c6168cf3a690)
+
+
+
 
 
