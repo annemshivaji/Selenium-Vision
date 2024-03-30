@@ -17,11 +17,13 @@
 
 ## 3rd test : to compare same images
 
+### test PASSED as there is no difference in the image
+
 ![image](https://github.com/annemshivaji/Selenium-Vision/assets/84372271/3ca266b7-fe7b-45f6-9ead-327848f2d8fd)
 
 ## 4th test : to compare different images
 
-### test failed as when there is a difference in the image
+### test FAILED as when there is a difference in the image
 
 ![image](https://github.com/annemshivaji/Selenium-Vision/assets/84372271/0e49ec49-d4e2-4b63-9ee3-2fd736144f8d)
 
