@@ -12,4 +12,7 @@
 
 ![image](https://github.com/annemshivaji/Selenium-Vision/assets/84372271/c73bc859-a975-4da3-ad96-443758179dda)
 
+## 2nd test : take screenshot of an element (logo)
+
+![image](https://github.com/annemshivaji/Selenium-Vision/assets/84372271/ffae887d-5756-4a3f-8ac3-7e8a6928cf3a)
 
