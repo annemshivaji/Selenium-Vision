@@ -14,5 +14,5 @@
 
 ## 2nd test : take screenshot of an element (logo)
 
-![image](https://github.com/annemshivaji/Selenium-Vision/assets/84372271/ffae887d-5756-4a3f-8ac3-7e8a6928cf3a)
+![image](https://github.com/annemshivaji/Selenium-Vision/assets/84372271/03d505c4-ed79-42ef-a17e-0e6df37ea3d1)
 
