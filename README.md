@@ -6,7 +6,7 @@
 
 
 
-# Now we opened the website "https://demo.guru99.com/test/newtours/" using this test and took screenshoot ( Used takeScreenshot method from aShot) :
+# Opened the website "https://demo.guru99.com/test/newtours/" using this test and took screenshoot ( Used takeScreenshot method from aShot) :
 
 ![image](https://github.com/annemshivaji/Selenium-Vision/assets/84372271/c73bc859-a975-4da3-ad96-443758179dda)
 
