@@ -61,7 +61,7 @@
 ![image](https://github.com/annemshivaji/Selenium-Vision/assets/84372271/91ecd585-6c62-40fe-b324-414abcd7d25b)
 
 ### Made a Report :
-### 1) To display all urls   2) To check whether all the tests are passed   3) To give the image with highlighted differences in case of test failure ( visual changes )
+### 1) To display all urls   2) To check whether the tests are passed   3) To give the image with highlighted differences in case of test failure ( visual changes )
 
 <img width="960" alt="image" src="https://github.com/annemshivaji/Selenium-Vision/assets/84372271/6a5d6d0a-51f9-4320-a68a-ba464b46355f">
 
