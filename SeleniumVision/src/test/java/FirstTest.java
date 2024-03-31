@@ -67,7 +67,7 @@ public class FirstTest {
             driver=new ChromeDriver();
             driver.get("https://demo.guru99.com/test/newtours/");
 
-            new ScreenCaptureUtility().takePageScreenshot(driver,"myImage1");
+            new ScreenCaptureUtility().takePageScreenshotImproved(driver,"myImage1");
         }
 
     @Test

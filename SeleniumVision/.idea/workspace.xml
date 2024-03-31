@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da1ab706-3b8e-42e1-a57d-7d754f65d81a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/screenshots/logoImage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/screenshots/myImage1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScreenCaptureUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScreenCaptureUtility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
     </list>
@@ -38,6 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Maven.SeleniumVision [test,-PRegression].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.FirstTest.compareImages.executor": "Run",
@@ -45,6 +45,9 @@
     "TestNG.FirstTest.prepareBaseline.executor": "Run",
     "TestNG.FirstTest.test.executor": "Run",
     "TestNG.FirstTest.test2.executor": "Run",
+    "TestNG.Regression.executor": "Run",
+    "TestNG.Regression.regression.executor": "Run",
+    "TestNG.S:/Crack/projects/Projects/Selenium-Vision/SeleniumVision/regression.xml.executor": "Run",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "S:/Crack/projects/Projects/Selenium-Vision/SeleniumVision/src/images/baseline",
@@ -60,31 +63,12 @@
       <recent name="S:\Crack\projects\Projects\Selenium-Vision\SeleniumVision\src\drivers" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test -PRegression" />
+    </option>
+  </component>
   <component name="RunManager" selected="TestNG.FirstTest.prepareBaseline">
-    <configuration name="FirstTest.compareImages" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumVision" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="compareImages" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstTest.compareImagesToFail" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumVision" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="compareImagesToFail" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FirstTest.prepareBaseline" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumVision" />
       <option name="PACKAGE_NAME" value="" />
@@ -109,12 +93,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Regression" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumVision" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="Regression" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Regression.regression" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumVision" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Regression" />
+      <option name="METHOD_NAME" value="regression" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="S:/Crack/projects/Projects/Selenium-Vision/SeleniumVision/regression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumVision" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/regression.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -124,10 +129,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.FirstTest.prepareBaseline" />
-        <item itemvalue="TestNG.FirstTest.compareImages" />
-        <item itemvalue="TestNG.FirstTest.compareImagesToFail" />
+        <item itemvalue="TestNG.Regression.regression" />
+        <item itemvalue="TestNG.S:/Crack/projects/Projects/Selenium-Vision/SeleniumVision/regression.xml" />
         <item itemvalue="TestNG.FirstTest.test" />
-        <item itemvalue="TestNG.FirstTest.test2" />
+        <item itemvalue="TestNG.Regression" />
       </list>
     </recent_temporary>
   </component>
