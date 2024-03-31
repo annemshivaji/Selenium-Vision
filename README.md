@@ -68,7 +68,7 @@
 
 
 
-## Implemented Automated Testing using xml file ( which can run any number of test classes ) and Maven
+## Implemented Automated Testing using xml file ( which can run any number of test classes ) and Maven plugin surefire
 
 ![image](https://github.com/annemshivaji/Selenium-Vision/assets/84372271/952a2dea-aa23-41ad-8214-be4ab1f7682d)
 
